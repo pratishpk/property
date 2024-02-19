@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+</head>
+
+<body>
+
+  <header class="header">
+    <input type="checkbox" id="check">
+    <label for="check" class="icons">
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <i class='bx bx-x' id="close-icon"></i>
+    </label>
+    <a href="#" class="logo">Property Finder</a>
+    <nav class="custom-nav">
+      <a href="index.html" style="--i:0;">Home</a>
+      <a href="services.html" style="--i:1;">Services</a>
+      <a href="about.html" style="--i:2;">About Us</a>
+      <a href="contact.html" style="--i:3;">Contact Us</a>
+
+    </nav>
+  </header>
+
+  <section class="banner">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="https://newhome.qodeinteractive.com/wp-content/uploads/2023/03/park-house-02-841x533.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Residential Property</h5>
+
+            <p style="background-color: gray;">We are dealing with fully furnished domestic properties with best prices
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="https://4689489.fs1.hubspotusercontent-na1.net/hubfs/4689489/Commercial%20Office%20Spaces.jpg"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Commercial Buildings</h5>
+            <p>Our commercial deals are for those who want to start their own business</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/03/19234622/featured1-compressed.jpg"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Agricultural Land</h5>
+            <p>These deals are for those who are passionite of Agriculture</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <h1
+    style="font-size: 50px; text-align: center; color: rgb(179, 139, 68); margin-top: 20px; text-decoration: underline;">
+    Best Deals</h1>
+  <section class="first">
+
+    <div class="card">
+      <div class="card-content">
+        <img src="https://newhome.qodeinteractive.com/wp-content/uploads/2023/03/park-house-02-841x533.jpg" alt="">
+        <h5><i class="bi bi-geo-alt"></i> APARTMENT - Queens</h5>
+        <h1>White House</h1>
+        <p class="card-about">Lorem ipsum dolor sit amet, wisi nemore fastidii at vis, eos equidem admodum</p>
+        <p class="price"> $5,50,000</p>
+        <p><i class="bi bi-droplet"></i>24X7 <i class="bi bi-lightning-charge"></i>24X7</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <img src="https://4689489.fs1.hubspotusercontent-na1.net/hubfs/4689489/Commercial%20Office%20Spaces.jpg" alt="">
+        <h5><i class="bi bi-geo-alt"></i> APARTMENT - Skyline</h5>
+        <h1>Trade Park</h1>
+        <p class="card-about">Lorem ipsum dolor sit amet, wisi nemore fastidii at vis, eos equidem admodum</p>
+        <p class="price"> $8,50,000</p>
+        <p><i class="bi bi-droplet"></i>24X7 <i class="bi bi-lightning-charge"></i>24X7</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <img
+          src="https://okotech.in/wp-content/uploads/2021/04/Okotech-March-2021-Blog-2-Why-commercial-spaces-need-uPVC-windows-and-doors.jpg"
+          alt="">
+        <h5><i class="bi bi-geo-alt"></i> APARTMENT - Royal King</h5>
+        <h1>Multipurpose Space</h1>
+        <p class="card-about">Lorem ipsum dolor sit amet, wisi nemore fastidii at vis, eos equidem admodum</p>
+        <p class="price"> $13,50,000</p>
+        <p><i class="bi bi-droplet"></i>24X7 <i class="bi bi-lightning-charge"></i>24X7</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <img src="https://www.wisdomproperties.com/web/assets/images/farm-land/ECR1.webp" alt="">
+        <h5><i class="bi bi-geo-alt"></i> Royal fields</h5>
+        <h1>Greenland</h1>
+        <p class="card-about">Lorem ipsum dolor sit amet, wisi nemore fastidii at vis, eos equidem admodum</p>
+        <p class="price"> $10,25,000</p>
+        <p>Area - 1000 X 500 Meter</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <img src="https://newhome.qodeinteractive.com/wp-content/uploads/2023/03/list-half-map-image-1-460x300.jpg"
+          alt="">
+        <h5><i class="bi bi-geo-alt"></i> APARTMENT - Greens</h5>
+        <h1>Park House</h1>
+        <p class="card-about">Lorem ipsum dolor sit amet, wisi nemore fastidii at vis, eos equidem admodum</p>
+        <p class="price"> $8,50,000</p>
+        <p><i class="bi bi-droplet"></i>24X7 <i class="bi bi-lightning-charge"></i>24X7</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <img src="https://www.agrifarming.in/wp-content/uploads/2021/12/Agri_Land_India4-1024x683.jpg" alt="">
+        <h5><i class="bi bi-geo-alt"></i> Agri Farming</h5>
+        <h1>Capital Gains</h1>
+        <p class="card-about">Lorem ipsum dolor sit amet, wisi nemore fastidii at vis, eos equidem admodum</p>
+        <p class="price"> $20,50,000</p>
+        <p>Area - 2000 X 1200 Meter</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="second">
+
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="https://smarthomesjaipur.com/assets/images/creating-conv.jpg" class="img-fluid rounded-start"
+          alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Creating Conveniences</h5>
+          <p class="card-text">People Successful Getting Home</p>
+          <p class="card-text" style="color: rgb(163, 163, 163);">Our projects come equipped with aspects that make
+            living easy and pleasant by making everything available.</p>
+          <button>Know More<i class="bi bi-arrow-right-short"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-0" style="margin-top: 70px;">
+      <div class="col-md-4">
+        <img src="https://newhome.qodeinteractive.com/wp-content/uploads/2023/03/main-home-img-2.jpg"
+          class="img-fluid rounded-start" alt="..." style="border-radius: 15px;">
+      </div>
+      <div class="col-md-8" style="background-color: rgb(225, 241, 200);">
+        <div class="card-body">
+          <h5 class="card-title" style="color: black;">Explore your home loan options</h5>
+          <p class="card-text" style="color: rgb(163, 163, 163);">Lorem ipsum dolor sit amet, minimum inimicus quo no,
+            at vix primis viderere vituperatoribus. In corpora argumentum. Vix ferri dicam contentiones ne, ex appetere
+            salutatus</p>
+          <button style="background-color: rgb(179, 139, 68);color: beige;">Know More<i
+              class="bi bi-arrow-right-short"></i></button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+ <footer style=" background-color: rgb(147, 137, 105); border-top-left-radius: 90px; ">
+  <section class="custom-footer">
+    <div class="footer-main">
+      <img src="https://vaal.com.gh/wp-content/uploads/2023/08/hand-holding-house-real-estate-property-model-jpg.webp"
+        alt="" style="max-width: 100px;">
+      <p style="margin-top: 15px;">Explore homes with our real estate site. Browse listings, get expert advice, and make your property dealings
+        smooth and hassle-free.</p>
+    </div>
+    <div class="footer-address">
+      <h6>Address</h6>
+      <p>Address line 1</br>Address line 2</br>Address line 3</br><i class="bi bi-envelope-paper"></i>: <a
+          href="mailto:info@propertywala.com">info@propertywala.com</a></br><i class="bi bi-telephone"></i>: <a
+          href="tel:+91-0123456789">+91-0123456789</a></p>
+    </div>
+    <div class="quick-links">
+      <h6>Quick Links</h6>
+      <a href="">Home</a> </br>
+      <a href="">Services</a></br>
+      <a href="">About Us</a></br>
+      <a href="">Contact Us</a></br>
+      <a href="">Blog</a></br>
+    </div>
+    <div class="social-links" style="display: flex; flex-direction: column;">
+
+      <h6>Social Media</h6>
+      <a href=""><i class="bi bi-facebook"></i> Facebook</a> 
+      <a href=""><i class="bi bi-instagram"></i> Instagram</a>
+      <a href=""><i class="bi bi-twitter"></i> Twitter</a>
+      <a href=""><i class="bi bi-linkedin"></i> Linkedin</a>
+      <a href=""> <i class="bi bi-youtube"></i> Youtube</a></br>
+      
+    </div>
+  </section>
+
+  <hr style="margin:0 15%; color:rgb(110, 63, 0); border-width: 3px; border-radius: 2px;">
+
+  <p style=" color: beige; text-align: center; justify-content: center; margin-bottom: 0; padding: 5px; font-size: 12px;"><i class="bi bi-c-circle"></i> 2023 Property Finder</p>
+ </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+
+
+</html>
